@@ -50,3 +50,7 @@ Se recomienda no cambiar esta ruta, que hace referencia al container.
 
 Cambiar ```{KEY}```, por el  PredictionIO Event Server App Key.
 
+
+# Para acceder a la Consola del Container tipear :
+```docker exec -it nifi bash```
+
