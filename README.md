@@ -33,7 +33,7 @@ Ejemplo :
 Para saber la ip, en la consola de la máquina tipear : ```ifconfig``` 
 
 
-# Cambiar el PredictionIO Event Server App Key del processor del POSTPredictionIOEventServer , para saber la key tipear:
+# Cambiar el PredictionIO Event Server App Key del processor del POSTPredictionIOEventServer , para saber la key tipear en la consola donde se este ejecutando prediction maki:
 ```pio app list```
 
 
