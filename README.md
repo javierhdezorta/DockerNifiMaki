@@ -5,12 +5,12 @@
 
 # Construir el Container :
 
-```docker run --name nifi -v /{TU_PATH}/facturas:/opt/nifi/nifi-1.5.0/facturas -p 8080:8080 -p 8443:8443 -p 10000:10000 -p 5656:7070 -d  bigdatamx/nifi```
+```docker run --name nifi -v /{TU_PATH}/facturas:/opt/nifi/nifi-1.6.0/facturas -p 8080:8080 -p 8443:8443 -p 10000:10000 -p 5656:7070 -d  bigdatamx/nifi```
 
 
 Ejemplo :
 
-```docker run --name nifi -v /home/javier/facturas:/opt/nifi/nifi-1.5.0/facturas -p 8080:8080 -p 8443:8443 -p 10000:10000 -p 5656:7070 -d  bigdatamx/nifi```
+``` docker run --name nifi -v /home/javier/facturas:/opt/nifi/nifi-1.6.0/facturas -p 5151:8080 -p 6443:8443 -p 3233:10000 -p 5656:7070 -d bigdatamx/nifi```
 
 En la etiqueta de -v ```{TU_PATH}``` colocar el path completo de donde se encuentran almacenados las facturas los xml.
 
